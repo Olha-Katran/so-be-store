@@ -1,0 +1,46 @@
+@use '../../../assets/css/variables.scss' as *;
+
+.header_container {
+    color: #7d6145;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 80px;
+    background-color: $color-text-test;
+
+    .header_left_block {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+
+        img {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+
+        h1 {
+            font-family: 'Great Vibes';
+            font-size: 70px;
+        }
+    }
+
+    .header_right_block {
+        margin-right: 15px;
+        display: flex;
+
+        .header_divider {
+            background-color: #7d6145;
+            width: 1px;
+            height: 20px;
+            align-self: center;
+            margin-right: 10px;
+        }
+
+        button {
+            margin-right: 10px;
+            color:#7d6145;
+            background-color: inherit;
+        }
+    }
+}
